@@ -1,0 +1,1 @@
+{"rule_id": "BRUTE-001", "name": "Multiple Failed Logins", "severity": "high", "mitre_technique": "T1110", "mitre_tactic": "Credential Access", "pattern": {"event_type": "login_failed", "count_30m": {"min": 5}}, "score": 7.5}

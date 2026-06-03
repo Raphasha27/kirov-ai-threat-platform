@@ -1,0 +1,1 @@
+{"rule_id": "NET-001", "name": "Port Scan Detected", "severity": "medium", "mitre_technique": "T1046", "mitre_tactic": "Discovery", "pattern": {"event_type": "connection", "unique_ports_5m": {"min": 10}}, "score": 5.0}

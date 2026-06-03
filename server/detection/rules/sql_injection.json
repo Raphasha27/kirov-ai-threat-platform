@@ -1,0 +1,1 @@
+{"rule_id": "WEB-001", "name": "SQL Injection Attempt", "severity": "critical", "mitre_technique": "T1190", "mitre_tactic": "Initial Access", "pattern": {"event_type": "http_request", "query_params": {"contains": ["'", "OR 1=1", "UNION SELECT", "DROP TABLE", "--"]}}, "score": 9.5}
